@@ -32,5 +32,23 @@ Features
 * Email: JavaMail API for sending emails with QR code and unique ID
 * QR Code Generation: ZXing library
 
-## Home Page:
+### Home Page:
 ![Screenshot (60)](https://github.com/user-attachments/assets/44f95ad2-7da6-4e62-b51b-93aab300d1c5)
+
+### Admin pages:
+![Screenshot (62)](https://github.com/user-attachments/assets/e73c5307-7602-48b2-9a97-9eb362a7e2d8)
+
+### All records:
+![Screenshot (63)](https://github.com/user-attachments/assets/66152110-4616-4816-9fb3-05c2e81a5e66)
+
+### BlockList:
+![Screenshot (64)](https://github.com/user-attachments/assets/83c518c8-e882-4162-8d0f-6506d222f38a)
+
+### Gatepass:
+![image](https://github.com/user-attachments/assets/6f241fa2-069a-4772-8392-314b1859d943)
+
+
+
+
+
+
