@@ -31,3 +31,6 @@ Features
 * Database: MySQL
 * Email: JavaMail API for sending emails with QR code and unique ID
 * QR Code Generation: ZXing library
+
+## Home Page:
+![Screenshot (60)](https://github.com/user-attachments/assets/44f95ad2-7da6-4e62-b51b-93aab300d1c5)
