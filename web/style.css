@@ -1,0 +1,261 @@
+/* styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+         .navbar {
+            background-color: #333;
+            display: flex; /* Ensures items are aligned horizontally */
+            align-items: center;
+            padding: 0 16px;
+            justify-content: space-between; 
+        }
+        .navbar-brand {
+            float: left;
+            color: #ffffff;
+            padding: 14px 16px;
+            font-size: 18px;
+            
+        }
+        .navbar-links {
+            float: right;
+            display: flex; 
+            align-items: center;
+        }
+          
+        .navbar-links a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar-links a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+         .user-info {
+            display: flex;
+            align-items: center;
+        }
+       
+       
+        .logout-button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+     
+        .logout-button .glyphicon-log-out:before {
+            content: "\e003"; /* This is a placeholder. Use a real Unicode icon or an image */
+            font-family: 'Glyphicons Halflings'; /* Ensure the correct font family is used */
+            padding-right: 5px;
+         }
+        .main-content {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+            
+            
+        }
+        .main-content h1{
+             font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .nav-button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        
+        .nav-button:hover {
+            background-color: #575757;
+        }
+
+         .form-container {
+            background-color: #ffffff;
+            padding: 40px;
+            margin: 50px auto;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-container input {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .form-container button {
+            padding: 10px;
+            background-color: #3CB371; /* Medium Sea Green */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .form-container button:hover {
+            background-color: #2E8B57; /* Lighter Green */
+            transform: translateY(-3px);
+        }
+        .hero {
+            margin-bottom: 20px;
+            background: linear-gradient(rgba(34, 193, 195, 0.8), rgba(253, 187, 45, 0.8)), url('background.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            border-radius: 8px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+        .cta-section {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .cta-buttons a {
+            display: inline-block;
+            padding: 20px 40px;
+            font-size: 1.2em;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        #admin-button {
+            background-color: #FF7F50; /* Coral */
+        }
+        #admin-button:hover {
+            background-color: #FF6347; /* Lighter Coral */
+            transform: translateY(-5px);
+        }
+        #visitor-button {
+            background-color: #3CB371; /* Medium Sea Green */
+        }
+        #visitor-button:hover {
+            background-color: #2E8B57; /* Lighter Green */
+            transform: translateY(-5px);
+        }
+        .login-form-container {
+            background-color: #ffffff;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-form-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+        .login-form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form-container input {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-form-container button {
+            padding: 10px;
+            font-size: 1em;
+            color: white;
+            background-color: #22c1c3;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-form-container button:hover {
+            background-color: #1aa1a6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 50px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer a {
+            color: #22c1c3;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+       .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .cta-button {
+            display: block;
+            margin: 40px auto;
+            padding: 20px 40px; /* Increase padding for a larger button */
+            font-size: 24px; /* Increase font size for better visibility */
+            background-color: #4CAF50; /* Button color */
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+        }
+        .cta-button:hover {
+            background-color: #45a049; /* Darker green on hover */
+            transform: scale(1.05); /* Slightly enlarge the button on hover */
+        }
+        
+        
+
+
+     

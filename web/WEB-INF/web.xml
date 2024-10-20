@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- RegisterServlet Configuration -->
+    <servlet>
+        <servlet-name>VisitorServlet</servlet-name>
+        <servlet-class>com.visitor.VisitorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VisitorServlet</servlet-name>
+        <url-pattern>/VisitorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.visitor.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- LoginServlet Configuration -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.visitor.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.visitor.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>AllRecordsServlet</servlet-name>
+        <servlet-class>com.visitor.AllRecordsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllRecordsServlet</servlet-name>
+        <url-pattern>/AllRecordsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BlockVisitorServlet</servlet-name>
+        <servlet-class>com.visitor.BlockVisitorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlockVisitorServlet</servlet-name>
+        <url-pattern>/BlockVisitorServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BlockedVisitorsServlet</servlet-name>
+        <servlet-class>com.visitor.BlockedVisitorsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlockedVisitorsServlet</servlet-name>
+        <url-pattern>/BlockedVisitorsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UnblockVisitorServlet</servlet-name>
+        <servlet-class>com.visitor.UnblockVisitorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UnblockVisitorServlet</servlet-name>
+        <url-pattern>/UnblockVisitorServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
