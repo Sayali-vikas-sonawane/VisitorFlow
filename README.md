@@ -3,7 +3,7 @@ VisitorFlow is a web application with separate sections for admin and visitor fu
 
 Features
 
-## Admin Section:  
+### Admin Section:  
 
 * Admin Registration & Login:
   Admins can create an account and log in to access the admin panel.
@@ -15,7 +15,7 @@ Features
   Admin can view a list of blocked visitors and unblock them if needed.
 
 
-## Visitor Section:
+### Visitor Section:
 
 * Gatepass Application:
  Visitors can apply for a gatepass through the portal.
@@ -24,7 +24,7 @@ Features
 * Service Access:
  Visitors can use the QR code and unique ID to access services.
 
-## Technologies Used:
+### Technologies Used:
 
 * Backend: Java (Servlets, JSP)
 * Frontend: HTML, CSS
